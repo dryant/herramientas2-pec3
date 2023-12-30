@@ -6,8 +6,9 @@
 /**
  * Import variables
  */
-
-@import "variables";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /**
  * Import npm dependencies
@@ -22,8 +23,6 @@
  * Import layouts
  * It's a best practice to use a different partial for each page
  */
-
-@import "layouts/home";
 
 /**
  * Do NOT include anything else in this file!
