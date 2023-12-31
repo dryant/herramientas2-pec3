@@ -2,7 +2,18 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        arena: "#d0673d",
+        cesped: "#507240",
+        pista: "#0166a4",
+      },
+      textColor: {
+        arena: "#d0673d",
+        cesped: "#507240",
+        pista: "#0166a4",
+      },
+    },
   },
   plugins: [],
 };
