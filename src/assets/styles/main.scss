@@ -12,7 +12,7 @@
 @import "npm:@fortawesome/fontawesome-free/css/all.css";
 
 .card {
-  @apply w-full mx-auto p-5 m-5 text-center;
+  @apply w-full mx-auto p-5 m-5 sm:p-2 sm:m-0 text-center;
 
   h2 {
     @apply font-extrabold py-3;
