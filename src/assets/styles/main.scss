@@ -11,65 +11,8 @@
 @tailwind utilities;
 @import "npm:@fortawesome/fontawesome-free/css/all.css";
 
-.tcard {
-  @apply w-full mx-auto md:px-5 m-5 sm:p-2 sm:m-0 text-center;
-
-  h5 {
-    @apply font-bold py-3 px-4 uppercase;
-  }
-
-  p {
-    @apply pb-3 px-4 leading-normal font-light md:text-sm;
-  }
-}
-.card {
-  @apply w-full mx-auto p-5 m-5 sm:p-2 sm:m-0 text-center;
-
-  h2 {
-    @apply font-extrabold py-3;
-  }
-
-  p {
-    @apply pb-3 leading-loose;
-  }
-}
-
-.card-white {
-  @apply bg-white;
-}
-.card-arena {
-  @apply bg-arena text-white;
-}
-.card-pista {
-  @apply bg-pista text-white;
-}
-.card-cesped {
-  @apply bg-cesped text-white;
-}
-.card-h1 {
-  h2 {
-    @apply text-5xl;
-  }
-}
-.card-h2 {
-  h2 {
-    @apply text-3xl;
-  }
-}
-.card-h3 {
-  h2 {
-    @apply text-2xl;
-  }
-}
-.font-arena {
-  @apply text-arena;
-}
-.font-cesped {
-  @apply text-cesped;
-}
-.font-pista {
-  @apply text-pista;
-}
+@import "./layouts/equipo.scss";
+@import "./layouts/home.scss";
 /**
  * Import npm dependencies
  * see: https://v2.parceljs.org/features/module-resolution/
