@@ -11,6 +11,17 @@
 @tailwind utilities;
 @import "npm:@fortawesome/fontawesome-free/css/all.css";
 
+.tcard {
+  @apply w-full mx-auto md:px-5 m-5 sm:p-2 sm:m-0 text-center;
+
+  h5 {
+    @apply font-bold py-3 px-4 uppercase;
+  }
+
+  p {
+    @apply pb-3 px-4 leading-normal font-light md:text-sm;
+  }
+}
 .card {
   @apply w-full mx-auto p-5 m-5 sm:p-2 sm:m-0 text-center;
 
